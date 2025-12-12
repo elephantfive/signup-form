@@ -1,0 +1,15 @@
+body {
+    display: flex;
+}
+
+.left, .right {
+    display: flex;
+}
+
+.left {
+    flex: 0 1 30%;
+}
+
+.right {
+    flex: 0 1 70%;
+}
