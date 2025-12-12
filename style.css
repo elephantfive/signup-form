@@ -7,9 +7,24 @@ body {
 }
 
 .left {
+    height: 1000px;
+    background-image: url("leaves.avif");
+    display: flex;
+    flex-flow: column;
     flex: 0 1 30%;
+    justify-content: space-between;
+}
+
+.logo {
+    background-color: rgba(51, 46, 46, 0.459);
+    display: flex;
+}
+
+.logo div {
+    color: white;
 }
 
 .right {
     flex: 0 1 70%;
 }
+
