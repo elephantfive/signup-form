@@ -1,16 +1,17 @@
 body {
+    margin: 0;
+    padding: 0;
     display: flex;
 }
 
 .left, .right {
     display: flex;
+    flex-flow: column;
 }
 
 .left {
     height: 1000px;
     background-image: url("leaves.avif");
-    display: flex;
-    flex-flow: column;
     flex: 0 1 30%;
     justify-content: space-between;
 }
@@ -25,6 +26,11 @@ body {
     padding: 2%;
 }
 
+.left div {
+    text-align: center;
+    color: white;
+}
+
 .logo div {
     color: white;
 }
@@ -35,5 +41,9 @@ body {
 
 .right {
     flex: 0 1 70%;
+}
+
+a:link, a:visited, a:hover, a:active {
+  color: white;
 }
 
