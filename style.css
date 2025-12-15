@@ -1,7 +1,18 @@
+@font-face {
+  font-family: "norse";
+  src:
+    url("Norse-Bold.woff2") format("woff2"),
+    url("Norse-Bold.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
 body {
     margin: 0;
     padding: 0;
     display: flex;
+    font-family: "arial";
 }
 
 .left, .right {
@@ -32,6 +43,11 @@ body {
 .logo div {
     text-align: center;
     color: white;
+}
+
+.logo div {
+    font-family: "norse";
+    font-size: 700%;
 }
 
 .credit {
