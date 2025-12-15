@@ -26,12 +26,9 @@ body {
     padding: 2%;
 }
 
-.left div {
-    text-align: center;
-    color: white;
-}
-
+.left div,
 .logo div {
+    text-align: center;
     color: white;
 }
 
@@ -41,7 +38,7 @@ body {
 
 .right {
     padding: 2%;
-    justify-content: space-evenly;
+    justify-content: center;
     flex: 0 1 70%;
 }
 
@@ -57,5 +54,42 @@ p {
 
 .left a:link, .left a:visited, .left a:hover, .left a:active {
   color: white;
+}
+
+button,
+input,
+select,
+textarea {
+  font-family: inherit;
+  font-size: 100%;
+}
+
+input,
+textarea,
+select,
+button {
+  width: 150px;
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+form {
+    width: 500px;
+    position: relative;
+    display: flex;
+    flex-flow: wrap;
+    box-sizing: border-box;
+    margin: 1em 0 2em;
+}
+
+.form-heading {
+    flex: 1 1 100%;
+}
+
+.form-row {
+    flex: 0 0 50%;
+    display: flex;
+    flex-flow: column;
 }
 
