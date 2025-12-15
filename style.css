@@ -68,8 +68,10 @@ body {
 
 p {
     font-size: larger;
-    font-weight: 500;
+    font-weight: 600;
+    width: 75%;
 }
+
 .right a:link, .right a:visited, .right a:hover, .right a:active {
     text-decoration: none;
     font-weight: 600;
@@ -118,6 +120,7 @@ form {
 }
 
 .form-box {
+    padding: 0.2em 0;
     box-shadow: 
         0px 5px 5px rgba(0, 0, 0, 0.125), 
         0px -1px 5px rgba(0, 0, 0, 0.075);
