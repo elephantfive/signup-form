@@ -25,6 +25,9 @@ body {
 .left {
     height: 100vh;
     background-image: url("leaves.avif");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
     flex: 0 1 30%;
     justify-content: space-between;
 }
