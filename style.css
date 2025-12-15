@@ -74,7 +74,8 @@ button {
   box-sizing: border-box;
 }
 
-form {
+.form-rows {
+    border: 1px solid black;
     width: 500px;
     position: relative;
     display: flex;
@@ -88,8 +89,12 @@ form {
 }
 
 .form-row {
-    flex: 0 0 50%;
+    margin: 0.5em;
+    flex: 0 0 40%;
     display: flex;
     flex-flow: column;
 }
 
+button {
+    margin-top: 1em;
+}
