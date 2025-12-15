@@ -69,6 +69,7 @@ body {
 p {
     font-size: larger;
     font-weight: 600;
+    padding-bottom: 1em;
     width: 75%;
 }
 
@@ -84,7 +85,7 @@ p {
 
 .right > div {
     width: 60%;
-    margin-left: 1em;
+    margin-left: 2em;
 }
 
 button,
@@ -103,10 +104,6 @@ button {
   padding: 0;
   margin: 0;
   box-sizing: border-box;
-}
-
-form {
-    margin: 0;
 }
 
 .form-rows {
@@ -149,9 +146,9 @@ button {
     width: 15em;
     color: white;
     font-weight: bold;
-    background-color: rgb(37, 102, 32);
+    background-color: #596D48;;
     border: 1px solid rgba(0, 0, 0, 0.5);
-    box-shadow: 2px 5px 5px rgba(0, 0, 0, 0.125);
+    box-shadow: 2px 5px 5px rgba(0, 0, 0, 0.15);
     border-radius: 0.5em;
 }
 
@@ -161,4 +158,13 @@ h1 {
     font-weight: 600;
     font-size: 150%;
     display: flex;
+}
+
+input:invalid {
+    border: 1px solid red;
+}
+
+input:focus {
+    border: 1px solid blue;
+    box-shadow: 2px 5px 5px rgba(0, 0, 0, 0.125);
 }
